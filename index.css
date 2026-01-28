@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFEEC;
+    color: #000000;
+}
+.glass {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 64, 0, 0.18);
+    box-shadow: 0 8px 32px rgba(255, 64, 0, 0.12);
+}
+.cta-primary {
+    background: linear-gradient(135deg, #FF4000, #FF5A3C);
+    color: #FFFFFF;
+    box-shadow: 0 8px 24px rgba(255, 64, 0, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.cta-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 32px rgba(255, 64, 0, 0.4);
+}
+.word-pill {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FF4000;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: #FFFFFF;
+}
+.word-pill:hover {
+    background: #FF4000;
+    color: #FFFFFF;
+    transform: scale(1.1);
+}
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+.float-animation {
+    animation: float 3s infinite ease-in-out;
+}
+.staggered-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: reveal 0.6s ease-out forwards;
+}
+@keyframes reveal {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
