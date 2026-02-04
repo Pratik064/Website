@@ -33,11 +33,13 @@ const Hero: React.FC = () => {
         <div className="lg:col-span-5 relative float-animation">
           <div className="glass p-4 rounded-3xl border-4 border-[#FF4000]/20 shadow-2xl bg-white/40">
             <div className="bg-white rounded-2xl overflow-hidden shadow-inner p-2">
-              <img 
-                src="https://picsum.photos/seed/words/800/600" 
-                alt="Widget Preview" 
-                className="w-full h-auto rounded-xl"
-              />
+              <iframe 
+                className="w-full rounded-xl aspect-video"
+                src="https://www.youtube.com/embed/kO6D03vpw3I" 
+                title="Demo Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+              ></iframe>
               <div className="mt-4 grid grid-cols-4 gap-2">
                 {[1,2,3,4,5,6,7,8,9,10,11,12].map(n => (
                   <div key={n} className="h-2 bg-[#FF4000]/10 rounded-full"></div>
