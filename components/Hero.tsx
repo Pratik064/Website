@@ -6,8 +6,8 @@ const Hero: React.FC = () => {
     <section className="relative pt-32 pb-20 px-6 overflow-hidden bg-gradient-to-b from-[#FFFEEC] to-[#FFFFFF]">
       <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-7 space-y-8 staggered-reveal">
-          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight text-black">
-            Explore <span className="text-[#FF4000]">Words,</span> One Chat at a Time !
+          <h1 className="text-2xl md:text-6xl font-extrabold leading-tight text-black">
+            Don't Search.<span className="text-[#FF4000]">Explore</span> Words
           </h1>
           <h2 className="text-xl md:text-2xl text-black/80 font-medium max-w-2xl">
             Dock the translucent widget on your screen, type what you thinking and get grid of smarter options in seconds—without breaking your flow.
@@ -24,9 +24,14 @@ const Hero: React.FC = () => {
             <a href="#demo" className="cta-primary px-12 py-5 rounded-xl text-xl font-bold text-center">
               Add to my screen
             </a>
-            <button className="px-12 py-5 rounded-xl text-xl font-bold border-2 border-black hover:bg-black hover:text-white transition-all text-center">
+            <a 
+              href="https://youtu.be/kO6D03vpw3I" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-12 py-5 rounded-xl text-xl font-bold border-2 border-black hover:bg-black hover:text-white transition-all text-center"
+            >
               Watch How It Works
-            </button>
+            </a>
           </div>
         </div>
         

@@ -55,14 +55,6 @@ export const FAQ_DATA: FAQItem[] = [
     answer: "Absolutely. Whether you're writing academic papers, software documentation, or creative fiction, the engine adapts to the tone of your root word."
   },
   {
-    question: "Mobile friendly?",
-    answer: "Yes, our responsive grid transforms to fit any screen, from 4K monitors to mobile devices."
-  },
-  {
-    question: "Save/export favorites?",
-    answer: "Pro users can save word collections directly to their account or export them as clean CSV/JSON files for their workflow."
-  },
-  {
     question: "Cancel anytime?",
     answer: "Yes, we believe in word freedom. You can downgrade or cancel your subscription at any time with no questions asked."
   },
@@ -71,20 +63,12 @@ export const FAQ_DATA: FAQItem[] = [
     answer: "Currently, we support English, with specialized modules for Spanish, French, and German coming later this year."
   },
   {
-    question: "Is there an API?",
-    answer: "Yes, Pro+ users get early access to our REST API to integrate Word Explorer into their own writing applications."
-  },
-  {
     question: "Who is this for?",
     answer: "Writers, poets, marketers, and students who find themselves stuck on a specific concept and need the 'perfect' word."
   },
   {
     question: "What AI model do you use?",
     answer: "We use high-speed Gemini models specifically fine-tuned for linguistic variety and semantic density."
-  },
-  {
-    question: "Can I use it offline?",
-    answer: "Word Explorer requires an internet connection to access our live semantic engine."
   },
   {
     question: "Are my searches private?",

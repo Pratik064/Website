@@ -8,7 +8,7 @@ import siteIcon from './Views/siteIcon.png';
 const FeatureCard: React.FC<{ title: string; desc: string; icon: string; step: string }> = ({ title, desc, icon, step }) => (
   <div className="glass p-8 rounded-3xl group hover:border-[#FF4000] transition-all">
     <div className="text-[#FF4000] text-sm font-black mb-4">{step}</div>
-    <div className="text-4xl mb-6">{icon}</div>
+    {/*<div className="text-4xl mb-6">{icon}</div>*/}
     <h3 className="text-2xl font-bold mb-4">{title}</h3>
     <p className="text-black/70 font-medium leading-relaxed">{desc}</p>
   </div>
@@ -59,7 +59,7 @@ const App: React.FC = () => {
             <a href="#features" className="hover:text-[#FF4000]">Features</a>
             <a href="#pricing" className="hover:text-[#FF4000]">Pricing</a>
             <a href="#faq" className="hover:text-[#FF4000]">FAQ</a>
-            <a href="#demo" className="cta-primary px-6 py-2.5 rounded-lg">Get Started</a>
+            <a href="#demo" className="cta-primary px-6 py-2.5 rounded-lg">Download</a>
           </div>
         </div>
       </nav>
